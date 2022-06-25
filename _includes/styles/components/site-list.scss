@@ -15,7 +15,7 @@
         flex-wrap: wrap;
         border-top: solid 0.33rem #{$black};
         align-items: center;
-        padding: 1rem 2rem 1rem 3rem;
+        padding: 1rem 2rem;
         box-sizing: border-box;
         min-height: 125px;
 
@@ -44,7 +44,7 @@
     &_link {
         margin-right: auto;
         font-size: $font-size-650;
-        padding: 1rem 0;
+        padding: 1rem;
         color: currentColor;
         outline: none;
         text-decoration-color: var(--accent-colour);
