@@ -64,7 +64,7 @@ counts:
 
 				{% if showRank %}
 					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="leaderboard-score-circles{% if hundos === 4 %} leaderboard-score-circles-400{% endif %}" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score>
+						<speedlify-score class="site-list_score-circles" raw-data='{{ site[newestKey] | toJSON | safe }}'></speedlify-score>
 					</is-land>
 				{% endif %}
 			</li>
