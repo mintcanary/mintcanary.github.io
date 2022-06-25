@@ -16,6 +16,8 @@
         border-top: solid 0.33rem #{$black};
         align-items: center;
         padding: 1rem 2rem 1rem 3rem;
+        box-sizing: border-box;
+        min-height: 125px;
 
         &:focus-within {
             --background-colour: var(--accent-colour);
@@ -46,6 +48,7 @@
         color: currentColor;
         outline: none;
         text-decoration-color: var(--accent-colour);
+        flex-basis: 400px;
 
         &:not(:hover) {
             text-decoration: none;
