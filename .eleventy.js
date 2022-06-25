@@ -3,6 +3,7 @@ const shortHash = require("short-hash");
 const lodash = require("lodash");
 const getObjectKey = require("./utils/getObjectKey.js");
 const calc = require("./utils/calc.js");
+const { minify } = require("terser");
 
 function hasUrl(urls, requestedUrl) {
 	// urls comes from sites[vertical].urls, all requestedUrls (may not include trailing slash)
@@ -91,7 +92,9 @@ module.exports = function(eleventyConfig) {
 		}
 		url = url.replace("https://", "");
 		if(url.endsWith("/index.html")) {
-			url = url.replace("/index.html", "/");
+			url = url.replace("/index.html", "");
+		} else if(url.endsWith("/")) {
+			url = url.replace(/\/$/, "");
 		}
 		return url;
 	});
@@ -316,8 +319,10 @@ module.exports = function(eleventyConfig) {
 	// Assets
 	eleventyConfig.addPassthroughCopy({
 		"./node_modules/chartist/dist/chartist.js": "chartist.js",
-		"./node_modules/chartist/dist/chartist.css.map": "chartist.css.map",
+		"./node_modules/chartist/dist/chartist.css.map": "chartist.css.map"
 	});
+	eleventyConfig.addPassthroughCopy("assets/fonts");
+	eleventyConfig.addPassthroughCopy("CNAME");
 
 	eleventyConfig.addWatchTarget("./assets/");
 
@@ -325,4 +330,24 @@ module.exports = function(eleventyConfig) {
 		ui: false,
 		ghostMode: false
 	});
+
+	eleventyConfig.addNunjucksAsyncFilter("jsmin", async function (
+		code,
+		callback
+	  ) {
+		try {
+		  const minified = await minify(code);
+		  callback(null, minified.code);
+		} catch (err) {
+		  console.error("Terser error: ", err);
+		  // Fail gracefully.
+		  callback(null, code);
+		}
+	});
+
+	return {
+		dir: {
+		  output: "docs"
+		}
+	}
 };

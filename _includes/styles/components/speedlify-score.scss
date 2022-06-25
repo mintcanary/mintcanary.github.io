@@ -1,0 +1,69 @@
+@use "../vars" as *;
+
+.speedlify-score {
+    --score-colour: #{$green};
+    --score-contrast: #{$grey};
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+/* The Lighthouse scoring circles */
+.speedlify-score {
+	width: 3em;
+	height: 3em;
+	line-height: 1;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: var(--score-colour);
+	color: var(--score-contrast);
+	margin-left: 0.5em;
+
+	[data-perfect="true"] a:focus + * & {
+		background-color: var(--score-contrast);
+		color: var(--score-colour);
+	}
+
+	@supports selector(:has(a)) {
+		[data-perfect="true"] a:hover + * & {
+			background-color: var(--score-contrast);
+			color: var(--score-colour);
+		}
+	}
+}
+.speedlify-score-ok {
+    --score-colour: #{$orange};
+    --score-contrast: #{$black};
+}
+.speedlify-score-bad {
+	--score-colour: #{$red};
+}
+.speedlify-rank:before {
+	content: "Rank #";
+}
+.speedlify-rank-change {
+	font-size: 0.8125em; /* 13px /16 */
+}
+.speedlify-rank-change:before {
+	line-height: 1;
+}
+.speedlify-rank-change.up {
+	color: green;
+}
+.speedlify-rank-change.up:before {
+	content: "⬆";
+}
+.speedlify-rank-change.down {
+	color: red;
+}
+.speedlify-rank-change.down:before {
+	content: "⬇";
+}
+speedlify-score > :not(.speedlify-score) {
+	margin-left: 0.625em; /* 10px /16 */
+}
+speedlify-score > :first-child {
+	margin-left: 0;
+}
