@@ -1,0 +1,51 @@
+{
+  "url": "https://typescale.io/",
+  "requestedUrl": "https://typescale.io/",
+  "timestamp": 1656151622100,
+  "ranks": {
+    "hundos": 3,
+    "performance": 1,
+    "accessibility": 3,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "9.6.2",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 899.6970000000001,
+  "firstMeaningfulPaint": 899.6970000000001,
+  "speedIndex": 957.009649999927,
+  "largestContentfulPaint": 899.6970000000001,
+  "totalBlockingTime": 25.5,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1003.1970000000001,
+  "maxPotentialFirstInputDelay": 82,
+  "timeToFirstByte": 37.742999999999995,
+  "weight": {
+    "summary": "5 requests • 28 KiB",
+    "total": 28709,
+    "image": 1445,
+    "imageCount": 2,
+    "script": 3241,
+    "scriptCount": 1,
+    "document": 4284,
+    "font": 19739,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 3634,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 169,
+    "violations": 0
+  }
+}

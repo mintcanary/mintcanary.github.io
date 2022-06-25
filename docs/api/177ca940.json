@@ -1,0 +1,51 @@
+{
+  "url": "https://36q.app/",
+  "requestedUrl": "https://36q.app/",
+  "timestamp": 1656151690362,
+  "ranks": {
+    "hundos": 7,
+    "performance": 7,
+    "accessibility": 4,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "9.6.2",
+    "performance": 0.99,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 399
+  },
+  "firstContentfulPaint": 938.154,
+  "firstMeaningfulPaint": 938.154,
+  "speedIndex": 1171.8148839998676,
+  "largestContentfulPaint": 1164.154,
+  "totalBlockingTime": 146,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1560.154,
+  "maxPotentialFirstInputDelay": 160,
+  "timeToFirstByte": 35.899,
+  "weight": {
+    "summary": "9 requests • 79 KiB",
+    "total": 80959,
+    "image": 19834,
+    "imageCount": 1,
+    "script": 36096,
+    "scriptCount": 3,
+    "document": 3002,
+    "font": 21262,
+    "fontCount": 2,
+    "stylesheet": 765,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 140,
+    "violations": 0
+  }
+}
