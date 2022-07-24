@@ -7,7 +7,7 @@ module.exports = {
 	// 	frequency: 60 * 23, // (in minutes), 23 hours
 	// },
 	urls: [
-		"https://gyam.smth.wtf/",
+		"https://gyam.smth.ooo/",
 		"https://uninstall.tech/",
         "https://manifesto.smth.uk/",
         "https://elisted.org/",
