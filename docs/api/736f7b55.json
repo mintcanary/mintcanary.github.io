@@ -1,12 +1,12 @@
 {
   "url": "https://uninstall.tech/",
   "requestedUrl": "https://uninstall.tech/",
-  "timestamp": 1656151587313,
+  "timestamp": 1658696141651,
   "ranks": {
-    "hundos": 6,
-    "performance": 6,
+    "hundos": 8,
+    "performance": 8,
     "accessibility": 9,
-    "cumulative": 6
+    "cumulative": 8
   },
   "lighthouse": {
     "version": "9.6.2",
@@ -16,36 +16,42 @@
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 1014.93,
-  "firstMeaningfulPaint": 1014.93,
-  "speedIndex": 1425.6045,
-  "largestContentfulPaint": 1014.93,
-  "totalBlockingTime": 4.499999999999943,
+  "firstContentfulPaint": 1003.606,
+  "firstMeaningfulPaint": 1003.606,
+  "speedIndex": 1634.355499999666,
+  "largestContentfulPaint": 1003.606,
+  "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1044.4299999999998,
-  "maxPotentialFirstInputDelay": 137.9999999999999,
-  "timeToFirstByte": 160.392,
+  "timeToInteractive": 1028.606,
+  "maxPotentialFirstInputDelay": 220,
+  "timeToFirstByte": 36.66599999999994,
   "weight": {
     "summary": "2 requests • 3 KiB",
-    "total": 3085,
+    "total": 3234,
     "image": 0,
     "imageCount": 0,
     "script": 0,
     "scriptCount": 0,
-    "document": 624,
+    "document": 744,
     "font": 0,
     "fontCount": 0,
-    "stylesheet": 2461,
+    "stylesheet": 2490,
     "stylesheetCount": 1,
     "thirdParty": 0,
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "axe": {
     "passes": 40,
     "violations": 0
+  },
+  "previousRanks": {
+    "hundos": 6,
+    "performance": 6,
+    "accessibility": 9,
+    "cumulative": 6
   }
 }

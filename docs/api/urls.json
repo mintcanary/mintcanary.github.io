@@ -53,6 +53,12 @@
     ],
     "vertical": "projects"
   },
+  "https://gyam.smth.ooo/": {
+    "requestedUrl": "https://gyam.smth.ooo/",
+    "url": "https://gyam.smth.ooo/",
+    "hash": "6457bc84",
+    "categories": []
+  },
   "https://manifesto.smth.uk/": {
     "requestedUrl": "https://manifesto.smth.uk/",
     "url": "https://manifesto.smth.uk/",
@@ -66,7 +72,10 @@
     "requestedUrl": "https://gyam.smth.wtf/",
     "url": "https://gyam.smth.wtf/",
     "hash": "a6c9c8ae",
-    "categories": []
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
   },
   "https://smth.uk/": {
     "requestedUrl": "https://smth.uk/",
