@@ -1,0 +1,51 @@
+{
+  "url": "https://smth.uk/",
+  "requestedUrl": "https://smth.uk/",
+  "timestamp": 1664631736215,
+  "ranks": {
+    "hundos": 4,
+    "performance": 9,
+    "accessibility": 5,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "9.6.2",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 969.1789999999999,
+  "firstMeaningfulPaint": 969.1789999999999,
+  "speedIndex": 996.955477999992,
+  "largestContentfulPaint": 1593.1299999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 969.1789999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 222.87800000000001,
+  "weight": {
+    "summary": "14 requests • 118 KiB",
+    "total": 121132,
+    "image": 90349,
+    "imageCount": 6,
+    "script": 4941,
+    "scriptCount": 2,
+    "document": 11953,
+    "font": 12238,
+    "fontCount": 3,
+    "stylesheet": 1651,
+    "stylesheetCount": 2,
+    "thirdParty": 3953,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 137,
+    "violations": 0
+  }
+}

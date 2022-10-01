@@ -1,1 +1,98 @@
-{}
+{
+  "https://propernoun.smth.uk/": {
+    "requestedUrl": "https://propernoun.smth.uk/",
+    "url": "https://propernoun.smth.uk/",
+    "hash": "8086017",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://libty.smth.uk/": {
+    "requestedUrl": "https://libty.smth.uk/",
+    "url": "https://libty.smth.uk/",
+    "hash": "101964ad",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://36q.app/": {
+    "requestedUrl": "https://36q.app/",
+    "url": "https://36q.app/",
+    "hash": "177ca940",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://elisted.org/": {
+    "requestedUrl": "https://elisted.org/",
+    "url": "https://elisted.org/",
+    "hash": "17cc0149",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://typescale.io/": {
+    "requestedUrl": "https://typescale.io/",
+    "url": "https://typescale.io/",
+    "hash": "48bd01f3",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://gyam.smth.ooo/": {
+    "requestedUrl": "https://gyam.smth.ooo/",
+    "url": "https://gyam.smth.ooo/",
+    "hash": "6457bc84",
+    "categories": []
+  },
+  "https://uninstall.tech/": {
+    "requestedUrl": "https://uninstall.tech/",
+    "url": "https://uninstall.tech/",
+    "hash": "736f7b55",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://manifesto.smth.uk/": {
+    "requestedUrl": "https://manifesto.smth.uk/",
+    "url": "https://manifesto.smth.uk/",
+    "hash": "a2149a67",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://smth.uk/": {
+    "requestedUrl": "https://smth.uk/",
+    "url": "https://smth.uk/",
+    "hash": "c9695589",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://c3css.com/": {
+    "requestedUrl": "https://c3css.com/",
+    "url": "https://c3css.com/",
+    "hash": "d2cc15a7",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  },
+  "https://hatecapitalism.com/": {
+    "requestedUrl": "https://hatecapitalism.com/",
+    "url": "https://hatecapitalism.com/",
+    "hash": "dbd30819",
+    "categories": [
+      "projects"
+    ],
+    "vertical": "projects"
+  }
+}

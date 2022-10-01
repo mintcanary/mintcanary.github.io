@@ -1,0 +1,51 @@
+{
+  "url": "https://propernoun.smth.uk/",
+  "requestedUrl": "https://propernoun.smth.uk/",
+  "timestamp": 1664631845086,
+  "ranks": {
+    "hundos": 7,
+    "performance": 5,
+    "accessibility": 2,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "9.6.2",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 833.488,
+  "firstMeaningfulPaint": 844.988,
+  "speedIndex": 833.488,
+  "largestContentfulPaint": 844.988,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 844.988,
+  "maxPotentialFirstInputDelay": 23,
+  "timeToFirstByte": 29.687000000000012,
+  "weight": {
+    "summary": "11 requests • 25 KiB",
+    "total": 25938,
+    "image": 22810,
+    "imageCount": 10,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3128,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "axe": {
+    "passes": 591,
+    "violations": 0
+  }
+}
