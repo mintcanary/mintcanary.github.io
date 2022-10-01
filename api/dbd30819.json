@@ -1,12 +1,12 @@
 {
   "url": "https://hatecapitalism.com/",
   "requestedUrl": "https://hatecapitalism.com/",
-  "timestamp": 1664631769689,
+  "timestamp": 1664632910318,
   "ranks": {
     "hundos": 1,
-    "performance": 10,
+    "performance": 8,
     "accessibility": 11,
-    "cumulative": 10
+    "cumulative": 9
   },
   "lighthouse": {
     "version": "9.6.2",
@@ -16,32 +16,32 @@
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 934.9290000000001,
-  "firstMeaningfulPaint": 952.4290000000001,
-  "speedIndex": 1097.9882798955518,
-  "largestContentfulPaint": 1530.429,
-  "totalBlockingTime": 0,
+  "firstContentfulPaint": 918.001,
+  "firstMeaningfulPaint": 918.001,
+  "speedIndex": 1027.1172482305078,
+  "largestContentfulPaint": 1438.501,
+  "totalBlockingTime": 0.5,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 952.4290000000001,
-  "maxPotentialFirstInputDelay": 35,
-  "timeToFirstByte": 22.514999999999986,
+  "timeToInteractive": 1389.001,
+  "maxPotentialFirstInputDelay": 51,
+  "timeToFirstByte": 64.13399999999999,
   "weight": {
     "summary": "13 requests • 187 KiB",
-    "total": 191682,
-    "image": 125063,
+    "total": 191623,
+    "image": 125032,
     "imageCount": 5,
-    "script": 13543,
+    "script": 13551,
     "scriptCount": 2,
-    "document": 7987,
-    "font": 42016,
+    "document": 7976,
+    "font": 42017,
     "fontCount": 2,
-    "stylesheet": 3073,
+    "stylesheet": 3047,
     "stylesheetCount": 3,
     "thirdParty": 0,
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "axe": {

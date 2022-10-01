@@ -1,7 +1,7 @@
 {
   "url": "https://manifesto.smth.uk/",
   "requestedUrl": "https://manifesto.smth.uk/",
-  "timestamp": 1664631692576,
+  "timestamp": 1664632783374,
   "ranks": {
     "hundos": 11,
     "performance": 11,
@@ -16,24 +16,24 @@
     "seo": 1,
     "total": 391
   },
-  "firstContentfulPaint": 846.857,
-  "firstMeaningfulPaint": 846.857,
-  "speedIndex": 846.857,
-  "largestContentfulPaint": 846.857,
+  "firstContentfulPaint": 844.083,
+  "firstMeaningfulPaint": 844.083,
+  "speedIndex": 844.083,
+  "largestContentfulPaint": 844.083,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0.2950732421875,
-  "timeToInteractive": 846.857,
+  "timeToInteractive": 844.083,
   "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 94.00399999999999,
+  "timeToFirstByte": 69.00799999999998,
   "weight": {
     "summary": "2 requests • 40 KiB",
-    "total": 41365,
+    "total": 41378,
     "image": 0,
     "imageCount": 0,
     "script": 0,
     "scriptCount": 0,
     "document": 2003,
-    "font": 39362,
+    "font": 39375,
     "fontCount": 1,
     "stylesheet": 0,
     "stylesheetCount": 0,
@@ -41,7 +41,7 @@
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 2,
+    "number": 1,
     "total": 3
   },
   "axe": {

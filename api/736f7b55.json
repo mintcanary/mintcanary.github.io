@@ -1,10 +1,10 @@
 {
   "url": "https://uninstall.tech/",
   "requestedUrl": "https://uninstall.tech/",
-  "timestamp": 1664631553368,
+  "timestamp": 1664632771725,
   "ranks": {
-    "hundos": 10,
-    "performance": 3,
+    "hundos": 9,
+    "performance": 2,
     "accessibility": 9,
     "cumulative": 8
   },
@@ -16,15 +16,15 @@
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 826.589,
-  "firstMeaningfulPaint": 826.589,
-  "speedIndex": 826.589,
-  "largestContentfulPaint": 826.589,
+  "firstContentfulPaint": 850.901,
+  "firstMeaningfulPaint": 850.901,
+  "speedIndex": 850.901,
+  "largestContentfulPaint": 850.901,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 826.589,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 66.93399999999997,
+  "timeToInteractive": 850.901,
+  "maxPotentialFirstInputDelay": 26,
+  "timeToFirstByte": 65.761,
   "weight": {
     "summary": "2 requests • 3 KiB",
     "total": 3087,

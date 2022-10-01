@@ -1,38 +1,38 @@
 {
   "url": "https://gyam.smth.ooo/",
   "requestedUrl": "https://gyam.smth.ooo/",
-  "timestamp": 1664631670538,
+  "timestamp": 1664633065573,
   "ranks": {
-    "hundos": 2,
-    "performance": 4,
+    "hundos": 10,
+    "performance": 10,
     "accessibility": 10,
-    "cumulative": 9
+    "cumulative": 10
   },
   "lighthouse": {
     "version": "9.6.2",
-    "performance": 1,
+    "performance": 0.94,
     "accessibility": 1,
     "bestPractices": 1,
     "seo": 1,
-    "total": 400
+    "total": 394
   },
-  "firstContentfulPaint": 833.217,
-  "firstMeaningfulPaint": 833.217,
-  "speedIndex": 833.217,
-  "largestContentfulPaint": 833.217,
-  "totalBlockingTime": 74,
+  "firstContentfulPaint": 851.571,
+  "firstMeaningfulPaint": 851.571,
+  "speedIndex": 851.571,
+  "largestContentfulPaint": 851.571,
+  "totalBlockingTime": 279,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1693.717,
-  "maxPotentialFirstInputDelay": 189,
-  "timeToFirstByte": 65.631,
+  "timeToInteractive": 1939.571,
+  "maxPotentialFirstInputDelay": 294,
+  "timeToFirstByte": 66.24,
   "weight": {
-    "summary": "13 requests • 147 KiB",
-    "total": 150700,
-    "image": 3139,
+    "summary": "13 requests • 148 KiB",
+    "total": 152060,
+    "image": 4528,
     "imageCount": 2,
-    "script": 106743,
+    "script": 106715,
     "scriptCount": 9,
-    "document": 10943,
+    "document": 10942,
     "font": 29875,
     "fontCount": 1,
     "stylesheet": 0,
@@ -41,7 +41,7 @@
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 2,
+    "number": 3,
     "total": 3
   },
   "axe": {

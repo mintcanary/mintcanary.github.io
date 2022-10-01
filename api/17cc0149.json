@@ -1,10 +1,10 @@
 {
   "url": "https://elisted.org/",
   "requestedUrl": "https://elisted.org/",
-  "timestamp": 1664631826700,
+  "timestamp": 1664632796494,
   "ranks": {
-    "hundos": 8,
-    "performance": 8,
+    "hundos": 7,
+    "performance": 9,
     "accessibility": 1,
     "cumulative": 6
   },
@@ -16,15 +16,15 @@
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 992.125,
-  "firstMeaningfulPaint": 1029.625,
-  "speedIndex": 992.125,
-  "largestContentfulPaint": 1029.625,
-  "totalBlockingTime": 12.5,
+  "firstContentfulPaint": 1044.864,
+  "firstMeaningfulPaint": 1112.364,
+  "speedIndex": 1098.841667063824,
+  "largestContentfulPaint": 1112.364,
+  "totalBlockingTime": 80,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 1046.625,
-  "maxPotentialFirstInputDelay": 75,
-  "timeToFirstByte": 69.87999999999998,
+  "timeToInteractive": 1174.864,
+  "maxPotentialFirstInputDelay": 135,
+  "timeToFirstByte": 99.78999999999996,
   "weight": {
     "summary": "1 request • 15 KiB",
     "total": 14924,
@@ -41,7 +41,7 @@
     "thirdPartyCount": 0
   },
   "run": {
-    "number": 3,
+    "number": 1,
     "total": 3
   },
   "axe": {

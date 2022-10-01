@@ -1,12 +1,12 @@
 {
   "url": "https://typescale.io/",
   "requestedUrl": "https://typescale.io/",
-  "timestamp": 1664631715796,
+  "timestamp": 1664632985053,
   "ranks": {
     "hundos": 6,
-    "performance": 2,
+    "performance": 7,
     "accessibility": 3,
-    "cumulative": 4
+    "cumulative": 5
   },
   "lighthouse": {
     "version": "9.6.2",
@@ -16,28 +16,28 @@
     "seo": 1,
     "total": 400
   },
-  "firstContentfulPaint": 824.255,
-  "firstMeaningfulPaint": 824.255,
-  "speedIndex": 824.255,
-  "largestContentfulPaint": 824.255,
+  "firstContentfulPaint": 941.406,
+  "firstMeaningfulPaint": 941.406,
+  "speedIndex": 1026.9499360000182,
+  "largestContentfulPaint": 1657.406,
   "totalBlockingTime": 0,
   "cumulativeLayoutShift": 0,
-  "timeToInteractive": 824.255,
-  "maxPotentialFirstInputDelay": 16,
-  "timeToFirstByte": 128.70999999999998,
+  "timeToInteractive": 956.406,
+  "maxPotentialFirstInputDelay": 63,
+  "timeToFirstByte": 99.84699999999998,
   "weight": {
     "summary": "5 requests • 28 KiB",
-    "total": 29013,
+    "total": 29011,
     "image": 1737,
     "imageCount": 2,
-    "script": 3244,
+    "script": 3243,
     "scriptCount": 1,
-    "document": 4293,
+    "document": 4292,
     "font": 19739,
     "fontCount": 1,
     "stylesheet": 0,
     "stylesheetCount": 0,
-    "thirdParty": 3953,
+    "thirdParty": 3952,
     "thirdPartyCount": 2
   },
   "run": {
