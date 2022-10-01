@@ -3,6 +3,5 @@ node_modules
 _site
 _data/results/*
 _data/results-last-runs.json
-package-lock.json
 .env
 .cache
