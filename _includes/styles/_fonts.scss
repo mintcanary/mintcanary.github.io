@@ -4,8 +4,8 @@
 //      font-style: normal;
 //      font-weight: 700;
 //      src: local(''),
-//          url('assets/fonts/rubik-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-//          url('assets/fonts/rubik-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+//          url('fonts/rubik-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//          url('fonts/rubik-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 //      font-display: block;
 // }
 
@@ -15,8 +15,8 @@
 //      font-style: normal;
 //      font-weight: 800;
 //      src: local(''),
-//          url('assets/fonts/rubik-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-//          url('assets/fonts/rubik-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+//          url('fonts/rubik-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+//          url('fonts/rubik-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 //      font-display: block;
 // }
 
@@ -25,8 +25,8 @@
 	font-style: normal;
 	font-weight: 700;
 	src:
-		url("assets/fonts/subset-Rubik-Bold.woff2") format("woff2"),
-		url("assets/fonts/subset-Rubik-Bold.woff") format("woff");
+		url("fonts/subset-Rubik-Bold.woff2") format("woff2"),
+		url("fonts/subset-Rubik-Bold.woff") format("woff");
 	font-display: block;
 }
 
@@ -35,7 +35,7 @@
 	font-style: normal;
 	font-weight: 800;
 	src:
-		url("assets/fonts/subset-Rubik-ExtraBold.woff2") format("woff2"),
-		url("assets/fonts/subset-Rubik-ExtraBold.woff") format("woff");
+		url("fonts/subset-Rubik-ExtraBold.woff2") format("woff2"),
+		url("fonts/subset-Rubik-ExtraBold.woff") format("woff");
 	font-display: block;
 }
