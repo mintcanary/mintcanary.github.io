@@ -24,5 +24,10 @@ module.exports = {
 		"https://c3css.com/",
 		"https://hatecapitalism.com/",
 		"https://36q.app/",
+		"https://samsmith.uk",
+		"https://preparingforzombies.zmbi.uk",
+		"https://rethink.wtf",
+		"https://browser-clock.mintcanary.com",
+		"https://samsmith.name"
 	],
 };
