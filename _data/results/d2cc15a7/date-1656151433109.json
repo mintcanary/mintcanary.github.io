@@ -1,0 +1,51 @@
+{
+  "url": "https://c3css.com/",
+  "requestedUrl": "https://c3css.com/",
+  "timestamp": 1656151663586,
+  "ranks": {
+    "hundos": 10,
+    "performance": 10,
+    "accessibility": 8,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "9.6.2",
+    "performance": 0.97,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 397
+  },
+  "firstContentfulPaint": 1123.8020000000001,
+  "firstMeaningfulPaint": 1123.8020000000001,
+  "speedIndex": 1491.6720359996589,
+  "largestContentfulPaint": 2500.4570000000003,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1123.8020000000001,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 155.168,
+  "weight": {
+    "summary": "9 requests • 57 KiB",
+    "total": 58165,
+    "image": 393,
+    "imageCount": 1,
+    "script": 4540,
+    "scriptCount": 3,
+    "document": 4237,
+    "font": 41972,
+    "fontCount": 2,
+    "stylesheet": 7023,
+    "stylesheetCount": 2,
+    "thirdParty": 3883,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 77,
+    "violations": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://libty.smth.uk/",
+  "requestedUrl": "https://libty.smth.uk/",
+  "timestamp": 1658696469320,
+  "ranks": {
+    "hundos": 7,
+    "performance": 2,
+    "accessibility": 7,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "9.6.2",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 932.149,
+  "firstMeaningfulPaint": 932.149,
+  "speedIndex": 932.149,
+  "largestContentfulPaint": 932.149,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 932.149,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 46.117000000000004,
+  "weight": {
+    "summary": "2 requests • 4 KiB",
+    "total": 3770,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1164,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2606,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "axe": {
+    "passes": 88,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://c3css.com/",
+  "requestedUrl": "https://c3css.com/",
+  "timestamp": 1746869250231,
+  "ranks": {
+    "hundos": 10,
+    "performance": 11,
+    "accessibility": 9,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "12.6.0",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 831.9125,
+  "speedIndex": 873.8442800472976,
+  "largestContentfulPaint": 2343.4735,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 2343.4735,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 69.583,
+  "weight": {
+    "summary": "12 requests • 66.6 KiB",
+    "total": 68246,
+    "image": 0,
+    "imageCount": 0,
+    "script": 4450,
+    "scriptCount": 3,
+    "document": 4277,
+    "font": 41978,
+    "fontCount": 2,
+    "stylesheet": 7081,
+    "stylesheetCount": 2,
+    "thirdParty": 4222,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 7,
+    "+weight.total": 5,
+    "-weight.document": 6,
+    "+weight.document": 6,
+    "-weight.script": 3,
+    "+weight.script": 4,
+    "-weight.image": 1,
+    "+weight.image": 6,
+    "-weight.font": 6,
+    "+weight.font": 3,
+    "+weight.fontCount": 1,
+    "-timeToFirstByte": 7,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 11
+  },
+  "axe": {
+    "passes": 61,
+    "violations": 0
+  }
+}

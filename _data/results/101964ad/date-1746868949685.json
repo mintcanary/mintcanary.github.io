@@ -1,0 +1,66 @@
+{
+  "url": "https://libty.smth.uk/",
+  "requestedUrl": "https://libty.smth.uk/",
+  "timestamp": 1746869241873,
+  "ranks": {
+    "hundos": 11,
+    "performance": 7,
+    "accessibility": 8,
+    "cumulative": 11
+  },
+  "lighthouse": {
+    "version": "12.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1262.841,
+  "speedIndex": 2041.9913979990715,
+  "largestContentfulPaint": 1262.841,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1262.841,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 483.7869999999999,
+  "weight": {
+    "summary": "3 requests • 3.7 KiB",
+    "total": 3802,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1075,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2605,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 11,
+    "-weight.document": 2,
+    "+weight.document": 10,
+    "-weight.script": 1,
+    "+weight.script": 7,
+    "-weight.image": 1,
+    "+weight.image": 6,
+    "-weight.font": 1,
+    "+weight.font": 9,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 9,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 4
+  },
+  "axe": {
+    "passes": 86,
+    "violations": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://elisted.org/",
+  "requestedUrl": "https://elisted.org/",
+  "timestamp": 1656151611115,
+  "ranks": {
+    "hundos": 5,
+    "performance": 5,
+    "accessibility": 1,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "9.6.2",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1089.23,
+  "firstMeaningfulPaint": 1124.73,
+  "speedIndex": 1188.9866110756125,
+  "largestContentfulPaint": 1124.73,
+  "totalBlockingTime": 20,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1184.23,
+  "maxPotentialFirstInputDelay": 163.0000000000001,
+  "timeToFirstByte": 49.31699999999995,
+  "weight": {
+    "summary": "1 request • 15 KiB",
+    "total": 14853,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 14853,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 1840,
+    "violations": 0
+  }
+}

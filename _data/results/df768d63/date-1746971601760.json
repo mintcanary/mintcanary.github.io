@@ -1,0 +1,66 @@
+{
+  "url": "https://preparingforzombies.zmbi.uk/",
+  "requestedUrl": "https://preparingforzombies.zmbi.uk/",
+  "timestamp": 1746971868359,
+  "ranks": {
+    "hundos": 2,
+    "performance": 10,
+    "accessibility": 14,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "12.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 1102.9969999999998,
+  "speedIndex": 1741.379863962102,
+  "largestContentfulPaint": 1102.9969999999998,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0007382565776785391,
+  "timeToInteractive": 1102.9969999999998,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 154.557,
+  "weight": {
+    "summary": "11 requests • 360.4 KiB",
+    "total": 369097,
+    "image": 339831,
+    "imageCount": 5,
+    "script": 6115,
+    "scriptCount": 1,
+    "document": 5564,
+    "font": 15792,
+    "fontCount": 2,
+    "stylesheet": 1437,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 15,
+    "+weight.total": 2,
+    "-weight.document": 10,
+    "+weight.document": 7,
+    "-weight.script": 6,
+    "+weight.script": 3,
+    "-weight.image": 9,
+    "+weight.image": 1,
+    "-weight.font": 2,
+    "+weight.font": 12,
+    "+weight.fontCount": 2,
+    "-timeToFirstByte": 10,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 5
+  },
+  "axe": {
+    "passes": 61,
+    "violations": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "url": "https://gyam.smth.ooo/",
+  "requestedUrl": "https://gyam.smth.ooo/",
+  "timestamp": 1746971750407,
+  "ranks": {
+    "hundos": 1,
+    "performance": 3,
+    "accessibility": 16,
+    "cumulative": 10
+  },
+  "lighthouse": {
+    "version": "12.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 903.266,
+  "speedIndex": 903.266,
+  "largestContentfulPaint": 1565.266,
+  "totalBlockingTime": 12,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1565.266,
+  "maxPotentialFirstInputDelay": 62,
+  "timeToFirstByte": 34.152,
+  "weight": {
+    "summary": "17 requests • 178.1 KiB",
+    "total": 182403,
+    "image": 4463,
+    "imageCount": 2,
+    "script": 107661,
+    "scriptCount": 9,
+    "document": 11054,
+    "font": 29876,
+    "fontCount": 1,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 13,
+    "+weight.total": 4,
+    "-weight.document": 14,
+    "+weight.document": 3,
+    "-weight.script": 8,
+    "+weight.script": 1,
+    "-weight.image": 2,
+    "+weight.image": 8,
+    "-weight.font": 8,
+    "+weight.font": 6,
+    "+weight.fontCount": 3,
+    "-timeToFirstByte": 3,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 11
+  },
+  "axe": {
+    "passes": 26,
+    "violations": 1
+  }
+}
