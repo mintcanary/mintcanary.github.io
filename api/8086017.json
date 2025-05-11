@@ -1,0 +1,72 @@
+{
+  "previousRanks": {
+    "hundos": 6,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 5
+  },
+  "url": "https://propernoun.smth.uk/",
+  "requestedUrl": "https://propernoun.smth.uk/",
+  "timestamp": 1746971792968,
+  "ranks": {
+    "hundos": 10,
+    "performance": 4,
+    "accessibility": 3,
+    "cumulative": 9
+  },
+  "lighthouse": {
+    "version": "12.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 400
+  },
+  "firstContentfulPaint": 936.0825,
+  "speedIndex": 936.0825,
+  "largestContentfulPaint": 936.0825,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 936.0825,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 33.60000000000001,
+  "weight": {
+    "summary": "8 requests • 33 KiB",
+    "total": 33828,
+    "image": 15175,
+    "imageCount": 6,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 3124,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 0,
+    "stylesheetCount": 0,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 4,
+    "+weight.total": 13,
+    "-weight.document": 5,
+    "+weight.document": 12,
+    "-weight.script": 1,
+    "+weight.script": 9,
+    "-weight.image": 3,
+    "+weight.image": 7,
+    "-weight.font": 1,
+    "+weight.font": 14,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 2,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 1
+  },
+  "axe": {
+    "passes": 577,
+    "violations": 0
+  }
+}

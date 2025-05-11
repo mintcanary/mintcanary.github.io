@@ -1,0 +1,72 @@
+{
+  "previousRanks": {
+    "hundos": 11,
+    "performance": 7,
+    "accessibility": 8,
+    "cumulative": 11
+  },
+  "url": "https://libty.smth.uk/",
+  "requestedUrl": "https://libty.smth.uk/",
+  "timestamp": 1746971673563,
+  "ranks": {
+    "hundos": 16,
+    "performance": 11,
+    "accessibility": 10,
+    "cumulative": 16
+  },
+  "lighthouse": {
+    "version": "12.6.0",
+    "performance": 1,
+    "accessibility": 1,
+    "bestPractices": 0.96,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1295.218,
+  "speedIndex": 2267.063366007757,
+  "largestContentfulPaint": 1295.218,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1295.2180000000003,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 511.087,
+  "weight": {
+    "summary": "3 requests • 3.7 KiB",
+    "total": 3806,
+    "image": 0,
+    "imageCount": 0,
+    "script": 0,
+    "scriptCount": 0,
+    "document": 1079,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2605,
+    "stylesheetCount": 1,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 1,
+    "+weight.total": 16,
+    "-weight.document": 2,
+    "+weight.document": 15,
+    "-weight.script": 1,
+    "+weight.script": 9,
+    "-weight.image": 1,
+    "+weight.image": 10,
+    "-weight.font": 1,
+    "+weight.font": 14,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 15,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 9
+  },
+  "axe": {
+    "passes": 86,
+    "violations": 0
+  }
+}

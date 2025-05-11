@@ -1,0 +1,72 @@
+{
+  "previousRanks": {
+    "hundos": 9,
+    "performance": 9,
+    "accessibility": 10,
+    "cumulative": 9
+  },
+  "url": "https://uninstall.tech/",
+  "requestedUrl": "https://uninstall.tech/",
+  "timestamp": 1746971622596,
+  "ranks": {
+    "hundos": 13,
+    "performance": 14,
+    "accessibility": 15,
+    "cumulative": 13
+  },
+  "lighthouse": {
+    "version": "12.6.0",
+    "performance": 0.98,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 398
+  },
+  "firstContentfulPaint": 1064.592,
+  "speedIndex": 3459.210989984679,
+  "largestContentfulPaint": 1815.592,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 1815.592,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 179.52300000000014,
+  "weight": {
+    "summary": "5 requests • 8 KiB",
+    "total": 8171,
+    "image": 0,
+    "imageCount": 0,
+    "script": 3396,
+    "scriptCount": 1,
+    "document": 774,
+    "font": 0,
+    "fontCount": 0,
+    "stylesheet": 2539,
+    "stylesheetCount": 1,
+    "thirdParty": 4223,
+    "thirdPartyCount": 2
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "sidequests": {
+    "-weight.total": 2,
+    "+weight.total": 15,
+    "-weight.document": 1,
+    "+weight.document": 16,
+    "-weight.script": 3,
+    "+weight.script": 6,
+    "-weight.image": 1,
+    "+weight.image": 10,
+    "-weight.font": 1,
+    "+weight.font": 14,
+    "+weight.fontCount": 4,
+    "-timeToFirstByte": 11,
+    "-totalBlockingTime": 1,
+    "-largestContentfulPaint": 12
+  },
+  "axe": {
+    "passes": 37,
+    "violations": 0
+  }
+}
