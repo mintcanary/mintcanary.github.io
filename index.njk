@@ -1,6 +1,19 @@
 ---
-layout: layout.njk
+layout: home.njk
+maxResults: 1
+pagination:
+  data: "sites"
+  size: 1
+  alias: vertical
+counts:
+  performance: 0
+  accessibility: 0
+  bestPractices: 0
+  seo: 0
+  perfect: 0
+  total: 0
 ---
+{% if sites|length > 1 %}
 {% starterMessage %}
 <div class="starter-message">
 	<style>
@@ -47,3 +60,7 @@ layout: layout.njk
 	{%- endfor %}
 	</tbody>
 </table>
+{% else %}
+	{% set categoriesContext = "home" %}
+	{% include "categories-template.njk" %}
+{% endif %}

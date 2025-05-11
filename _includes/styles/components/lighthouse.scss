@@ -1,0 +1,54 @@
+@use "../vars" as *;
+
+.lighthouse {
+	--score-colour: #{$green};
+	--score-contrast: #{$grey};
+
+	display: flex;
+	padding: 0;
+	margin: 0;
+
+	&_item {
+		&:nth-child(n+2) {
+			margin-left: 0.5em;
+		}
+
+		&[data-rating="ok"] {
+			--score-colour: #{$orange};
+			--score-contrast: #{$black};
+		}
+
+		&[data-rating="bad"] {
+			--score-colour: #{$red};
+		}
+	}
+
+	&_label {
+		clip: rect(0 0 0 0);
+		clip-path: inset(50%);
+		height: 1px;
+		overflow: hidden;
+		position: absolute;
+		white-space: nowrap;
+		width: 1px;
+	}
+
+	&_score {
+		width: 3em;
+		height: 3em;
+		line-height: 1;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		background-color: var(--score-colour);
+		color: var(--score-contrast);
+		margin: 0;
+
+		.leaderboard-list-entry:has(a:hover) &,
+		.leaderboard-list-entry:has(a:focus) & {
+			background-color: var(--score-contrast);
+			color: var(--score-colour);
+		}
+	}
+}

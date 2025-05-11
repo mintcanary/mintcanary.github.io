@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Pages, Prototypes, Projects</title>
+		<meta name="description" content="Pages, prototypes, and projects by Sam Smith.">
+		<meta name="generator" content="{{ eleventy.generator }}">
+		<link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/fonts/subset-Rubik-ExtraBold.woff2">
+		<link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/fonts/subset-Rubik-Bold.woff2">
+		<style>{% renderFile "./_includes/styles/index.scss" %}</style>
+		<script>
+		document.documentElement.classList.add("js");
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1 class="page-header">
+				Pages<br> Prototypes<br> Projects
+			</h1>
+		</header>
+
+		<main>
+			{{ content | safe }}
+		</main>
+	</body>
+</html>

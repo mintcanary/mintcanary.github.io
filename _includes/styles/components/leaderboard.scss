@@ -1,0 +1,107 @@
+@use "../vars" as *;
+
+.leaderboard-wrapper {
+}
+
+.leaderboard {
+	display: block;
+
+	thead {
+		display: none;
+	}
+
+	tbody {
+		display: block;
+	}
+}
+
+.leaderboard-list-entry {
+	--accent-colour: #{$green};
+	--accent-colour-contrast: #{$white};
+	--background-colour: #{$grey};
+	--colour: #{$black};
+	background-color: var(--background-colour);
+	color: var(--colour);
+	display: flex;
+	flex-wrap: wrap;
+	border-top: solid 0.33rem #{$black};
+	align-items: center;
+	padding: 1rem 2rem;
+	box-sizing: border-box;
+	min-height: 125px;
+
+	&:focus-within {
+		--background-colour: var(--accent-colour);
+		--colour: var(--accent-colour-contrast);
+	}
+
+	// these need to be sepearte otherwise :has will break above
+	&:has(a:hover) {
+		--background-colour: var(--accent-colour);
+		--colour: var(--accent-colour-contrast);
+	}
+
+	&:has([data-rating="ok"]) {
+		--accent-colour: #{$orange};
+		--accent-colour-contrast: #{$black};
+	}
+
+	&:has([data-rating="bad"]) {
+		--accent-colour: #{$red};
+		--accent-colour-contrast: #{$white};
+	}
+
+	td:not(.leaderboard-url, .leaderboard-score) {
+		display: none;
+	}
+}
+
+.leaderboard-url {
+	margin-right: auto;
+	font-size: $font-size-650;
+	padding: 1rem;
+	flex-basis: 400px;
+
+	a {
+		color: currentColor;
+		outline: none;
+		text-decoration-color: var(--accent-colour);
+
+		&:not(:hover) {
+			text-decoration: none;
+		}
+	}
+
+	img {
+		display: none;
+	}
+
+	code {
+		font-family: inherit;
+		position: relative;
+
+		&::after {
+			bottom: 0;
+			color: var(--background-colour);
+			content: "/";
+			position: absolute;
+			transform: translate(-100%, 0);
+			-webkit-text-stroke-width: 2px;
+			-webkit-text-stroke-color: var(--background-colour);
+		}
+	}
+}
+
+.leaderboard-score {
+	padding: 0.9rem 1rem;
+	border-radius: 3rem;
+
+	.leaderboard-score-sum,
+	.sparkline {
+		display: none;
+	}
+}
+
+.leaderboard-list-entry-details {
+	display: none;
+}
