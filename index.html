@@ -4,132 +4,45 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Pages, Prototypes, Projects</title>
-		<meta name="description" content="Pages, prototypes, and projects by Sam Smith">
-        <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/fonts/subset-Rubik-ExtraBold.woff2">
-        <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/fonts/subset-Rubik-Bold.woff2">
-        <style>@charset "UTF-8";@font-face{font-display:block;font-family:Rubik;font-style:normal;font-weight:700;src:url(assets/fonts/subset-Rubik-Bold.woff2) format("woff2"),url(assets/fonts/subset-Rubik-Bold.woff) format("woff")}@font-face{font-display:block;font-family:Rubik;font-style:normal;font-weight:800;src:url(assets/fonts/subset-Rubik-ExtraBold.woff2) format("woff2"),url(assets/fonts/subset-Rubik-ExtraBold.woff) format("woff")}html{background-color:#f1ece9;font-size:calc(.6em + .6vw)}body{font-family:Rubik,system-ui,sans-serif;font-weight:700;margin:0;padding:0}.page-header{background-color:#fff;font-size:3.583rem;font-weight:800;line-height:.85;margin:0;padding:2rem 3rem;text-transform:uppercase}.site-list{margin:0;padding:0}.site-list_item{--accent-colour:#07783e;--accent-colour-contrast:#fff;--background-colour:#f1ece9;--colour:#000;align-items:center;background-color:var(--background-colour);border-top:.33rem solid #000;box-sizing:border-box;color:var(--colour);display:flex;flex-wrap:wrap;min-height:125px;padding:1rem 2rem}.site-list_item:focus-within{--background-colour:var(--accent-colour);--colour:var(--accent-colour-contrast)}.site-list_item:has(a:hover){--background-colour:var(--accent-colour);--colour:var(--accent-colour-contrast)}.site-list_item:has(.speedlify-score-ok){--accent-colour:#ffa400;--accent-colour-contrast:#000}.site-list_item:has(.speedlify-score-bad){--accent-colour:#d60000;--accent-colour-contrast:#fff}.site-list_link{color:currentColor;flex-basis:400px;font-size:2.488rem;margin-right:auto;outline:none;padding:1rem;-webkit-text-decoration-color:var(--accent-colour);text-decoration-color:var(--accent-colour)}.site-list_link:not(:hover){text-decoration:none}.site-list_scores{border-radius:3rem;padding:.9rem 1rem}[data-perfect=false] .site-list_scores{background-color:#f1ece9}.speedlify-score{--score-colour:#07783e;--score-contrast:#f1ece9;align-items:center;background-color:var(--score-colour);border-radius:50%;color:var(--score-contrast);display:flex;display:inline-flex;flex-wrap:wrap;height:3em;justify-content:center;line-height:1;margin-left:.5em;width:3em}[data-perfect=true] a:focus+* .speedlify-score{background-color:var(--score-contrast);color:var(--score-colour)}@supports selector(:has(a)){[data-perfect=true] a:hover+* .speedlify-score{background-color:var(--score-contrast);color:var(--score-colour)}}.speedlify-score-ok{--score-colour:#ffa400;--score-contrast:#000}.speedlify-score-bad{--score-colour:#d60000}.speedlify-rank:before{content:"Rank #"}.speedlify-rank-change{font-size:.8125em}.speedlify-rank-change:before{line-height:1}.speedlify-rank-change.up{color:green}.speedlify-rank-change.up:before{content:"⬆"}.speedlify-rank-change.down{color:red}.speedlify-rank-change.down:before{content:"⬇"}speedlify-score>:not(.speedlify-score){margin-left:.625em}speedlify-score>:first-child{margin-left:0}</style>
-    </head>
+		<meta name="description" content="Pages, prototypes, and projects by Sam Smith.">
+		<meta name="generator" content="Eleventy v3.0.0">
+		<link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/fonts/subset-Rubik-ExtraBold.woff2">
+		<link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/fonts/subset-Rubik-Bold.woff2">
+		<style>@font-face{font-family:Rubik;font-style:normal;font-weight:700;src:url(assets/fonts/subset-Rubik-Bold.woff2)format("woff2"),url(assets/fonts/subset-Rubik-Bold.woff)format("woff");font-display:block}@font-face{font-family:Rubik;font-style:normal;font-weight:800;src:url(assets/fonts/subset-Rubik-ExtraBold.woff2)format("woff2"),url(assets/fonts/subset-Rubik-ExtraBold.woff)format("woff");font-display:block}html{background-color:#f1ece9;font-size:calc(.6em + .6vw)}body{margin:0;padding:0;font-family:Rubik,system-ui,sans-serif;font-weight:700}.page-header{text-transform:uppercase;background-color:#fff;margin:0;padding:2rem 3rem;font-size:3.583rem;font-weight:800;line-height:.85}.leaderboard{display:block}.leaderboard thead{display:none}.leaderboard tbody{display:block}.leaderboard-list-entry{--accent-colour:#07783e;--accent-colour-contrast:#fff;--background-colour:#f1ece9;--colour:#000;background-color:var(--background-colour);color:var(--colour);box-sizing:border-box;border-top:.33rem solid #000;flex-wrap:wrap;align-items:center;min-height:125px;padding:1rem 2rem;display:flex}.leaderboard-list-entry:focus-within{--background-colour:var(--accent-colour);--colour:var(--accent-colour-contrast)}.leaderboard-list-entry:has(a:hover){--background-colour:var(--accent-colour);--colour:var(--accent-colour-contrast)}.leaderboard-list-entry:has([data-rating=ok]){--accent-colour:#ffa400;--accent-colour-contrast:#000}.leaderboard-list-entry:has([data-rating=bad]){--accent-colour:#d60000;--accent-colour-contrast:#fff}.leaderboard-list-entry td:not(.leaderboard-url,.leaderboard-score){display:none}.leaderboard-url{flex-basis:400px;margin-right:auto;padding:1rem;font-size:2.488rem}.leaderboard-url a{color:currentColor;-webkit-text-decoration-color:var(--accent-colour);text-decoration-color:var(--accent-colour);outline:none}.leaderboard-url a:not(:hover){text-decoration:none}.leaderboard-url img{display:none}.leaderboard-url code{font-family:inherit;position:relative}.leaderboard-url code:after{color:var(--background-colour);content:"/";-webkit-text-stroke-width:2px;-webkit-text-stroke-color:var(--background-colour);position:absolute;bottom:0;transform:translate(-100%)}.leaderboard-score{border-radius:3rem;padding:.9rem 1rem}.leaderboard-score .leaderboard-score-sum,.leaderboard-score .sparkline,.leaderboard-list-entry-details{display:none}.lighthouse{--score-colour:#07783e;--score-contrast:#f1ece9;margin:0;padding:0;display:flex}.lighthouse_item:nth-child(n+2){margin-left:.5em}.lighthouse_item[data-rating=ok]{--score-colour:#ffa400;--score-contrast:#000}.lighthouse_item[data-rating=bad]{--score-colour:#d60000}.lighthouse_label{clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;width:1px;height:1px;position:absolute;overflow:hidden}.lighthouse_score{background-color:var(--score-colour);width:3em;height:3em;color:var(--score-contrast);border-radius:50%;justify-content:center;align-items:center;margin:0;line-height:1;display:inline-flex}:is(.leaderboard-list-entry:has(a:hover) .lighthouse_score,.leaderboard-list-entry:has(a:focus) .lighthouse_score){background-color:var(--score-contrast);color:var(--score-colour)}</style>
+		<script>
+		document.documentElement.classList.add("js");
+		</script>
+	</head>
 	<body>
-		<h1 class="page-header">
-            Pages<br> Prototypes<br> Projects
-        </h1>
+		<header>
+			<h1 class="page-header">
+				Pages<br> Prototypes<br> Projects
+			</h1>
+		</header>
 
-		<ul class="site-list">
+		<main>
 			
-			<li class="site-list_item" id="site-c9695589" data-perfect="true">
-				<a href="https://smth.uk/" class="site-list_link">
-					smth.uk
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://smth.uk/","requestedUrl":"https://smth.uk/","timestamp":1664633006009,"ranks":{"hundos":2,"performance":3,"accessibility":5,"cumulative":1},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":868.882,"firstMeaningfulPaint":868.882,"speedIndex":868.882,"largestContentfulPaint":1109.882,"totalBlockingTime":0,"cumulativeLayoutShift":0,"timeToInteractive":868.882,"maxPotentialFirstInputDelay":37,"timeToFirstByte":70.201,"weight":{"summary":"14 requests • 118 KiB","total":121315,"image":90383,"imageCount":6,"script":5118,"scriptCount":2,"document":11953,"font":12239,"fontCount":3,"stylesheet":1622,"stylesheetCount":2,"thirdParty":3953,"thirdPartyCount":2},"run":{"number":2,"total":3},"axe":{"passes":137,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-177ca940" data-perfect="true">
-				<a href="https://36q.app/" class="site-list_link">
-					36q.app
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://36q.app/","requestedUrl":"https://36q.app/","timestamp":1664633182563,"ranks":{"hundos":3,"performance":6,"accessibility":4,"cumulative":2},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":861.165,"firstMeaningfulPaint":861.165,"speedIndex":990.0977273792133,"largestContentfulPaint":1121.165,"totalBlockingTime":11,"cumulativeLayoutShift":0,"timeToInteractive":1407.165,"maxPotentialFirstInputDelay":68,"timeToFirstByte":25.311000000000007,"weight":{"summary":"9 requests • 79 KiB","total":81289,"image":19835,"imageCount":1,"script":36127,"scriptCount":3,"document":3292,"font":21265,"fontCount":2,"stylesheet":770,"stylesheetCount":2,"thirdParty":0,"thirdPartyCount":0},"run":{"number":3,"total":3},"axe":{"passes":140,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-d2cc15a7" data-perfect="true">
-				<a href="https://c3css.com/" class="site-list_link">
-					c3css.com
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://c3css.com/","requestedUrl":"https://c3css.com/","timestamp":1664632898811,"ranks":{"hundos":4,"performance":5,"accessibility":8,"cumulative":3},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":924.5509999999999,"firstMeaningfulPaint":924.5509999999999,"speedIndex":924.5509999999999,"largestContentfulPaint":1627.156,"totalBlockingTime":0,"cumulativeLayoutShift":0.04138359196980794,"timeToInteractive":924.5509999999999,"maxPotentialFirstInputDelay":16,"timeToFirstByte":23.592000000000013,"weight":{"summary":"9 requests • 57 KiB","total":58741,"image":709,"imageCount":1,"script":4572,"scriptCount":3,"document":4495,"font":41972,"fontCount":2,"stylesheet":6993,"stylesheetCount":2,"thirdParty":4196,"thirdPartyCount":2},"run":{"number":1,"total":3},"axe":{"passes":77,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-8086017" data-perfect="true">
-				<a href="https://propernoun.smth.uk/" class="site-list_link">
-					propernoun.smth.uk
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://propernoun.smth.uk/","requestedUrl":"https://propernoun.smth.uk/","timestamp":1664632993214,"ranks":{"hundos":5,"performance":4,"accessibility":2,"cumulative":4},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":888.066,"firstMeaningfulPaint":888.066,"speedIndex":888.066,"largestContentfulPaint":888.066,"totalBlockingTime":0,"cumulativeLayoutShift":0,"timeToInteractive":888.066,"maxPotentialFirstInputDelay":42,"timeToFirstByte":103.96600000000001,"weight":{"summary":"11 requests • 25 KiB","total":25917,"image":22788,"imageCount":10,"script":0,"scriptCount":0,"document":3129,"font":0,"fontCount":0,"stylesheet":0,"stylesheetCount":0,"thirdParty":0,"thirdPartyCount":0},"run":{"number":2,"total":3},"axe":{"passes":591,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-48bd01f3" data-perfect="true">
-				<a href="https://typescale.io/" class="site-list_link">
-					typescale.io
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://typescale.io/","requestedUrl":"https://typescale.io/","timestamp":1664632985053,"ranks":{"hundos":6,"performance":7,"accessibility":3,"cumulative":5},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":941.406,"firstMeaningfulPaint":941.406,"speedIndex":1026.9499360000182,"largestContentfulPaint":1657.406,"totalBlockingTime":0,"cumulativeLayoutShift":0,"timeToInteractive":956.406,"maxPotentialFirstInputDelay":63,"timeToFirstByte":99.84699999999998,"weight":{"summary":"5 requests • 28 KiB","total":29011,"image":1737,"imageCount":2,"script":3243,"scriptCount":1,"document":4292,"font":19739,"fontCount":1,"stylesheet":0,"stylesheetCount":0,"thirdParty":3952,"thirdPartyCount":2},"run":{"number":2,"total":3},"axe":{"passes":169,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-17cc0149" data-perfect="true">
-				<a href="https://elisted.org/" class="site-list_link">
-					elisted.org
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://elisted.org/","requestedUrl":"https://elisted.org/","timestamp":1664632796494,"ranks":{"hundos":7,"performance":9,"accessibility":1,"cumulative":6},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":1044.864,"firstMeaningfulPaint":1112.364,"speedIndex":1098.841667063824,"largestContentfulPaint":1112.364,"totalBlockingTime":80,"cumulativeLayoutShift":0,"timeToInteractive":1174.864,"maxPotentialFirstInputDelay":135,"timeToFirstByte":99.78999999999996,"weight":{"summary":"1 request • 15 KiB","total":14924,"image":0,"imageCount":0,"script":0,"scriptCount":0,"document":14924,"font":0,"fontCount":0,"stylesheet":0,"stylesheetCount":0,"thirdParty":0,"thirdPartyCount":0},"run":{"number":1,"total":3},"axe":{"passes":1864,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-101964ad" data-perfect="true">
-				<a href="https://libty.smth.uk/" class="site-list_link">
-					libty.smth.uk
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://libty.smth.uk/","requestedUrl":"https://libty.smth.uk/","timestamp":1664633146029,"ranks":{"hundos":8,"performance":1,"accessibility":7,"cumulative":7},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":813.785,"firstMeaningfulPaint":813.785,"speedIndex":813.785,"largestContentfulPaint":813.785,"totalBlockingTime":0,"cumulativeLayoutShift":0,"timeToInteractive":813.785,"maxPotentialFirstInputDelay":16,"timeToFirstByte":18.970000000000006,"weight":{"summary":"2 requests • 4 KiB","total":3713,"image":0,"imageCount":0,"script":0,"scriptCount":0,"document":1099,"font":0,"fontCount":0,"stylesheet":2614,"stylesheetCount":1,"thirdParty":0,"thirdPartyCount":0},"run":{"number":2,"total":2},"axe":{"passes":88,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-736f7b55" data-perfect="true">
-				<a href="https://uninstall.tech/" class="site-list_link">
-					uninstall.tech
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://uninstall.tech/","requestedUrl":"https://uninstall.tech/","timestamp":1664632771725,"ranks":{"hundos":9,"performance":2,"accessibility":9,"cumulative":8},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":850.901,"firstMeaningfulPaint":850.901,"speedIndex":850.901,"largestContentfulPaint":850.901,"totalBlockingTime":0,"cumulativeLayoutShift":0,"timeToInteractive":850.901,"maxPotentialFirstInputDelay":26,"timeToFirstByte":65.761,"weight":{"summary":"2 requests • 3 KiB","total":3087,"image":0,"imageCount":0,"script":0,"scriptCount":0,"document":625,"font":0,"fontCount":0,"stylesheet":2462,"stylesheetCount":1,"thirdParty":0,"thirdPartyCount":0},"run":{"number":1,"total":3},"axe":{"passes":40,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-dbd30819" data-perfect="true">
-				<a href="https://hatecapitalism.com/" class="site-list_link">
-					hatecapitalism.com
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://hatecapitalism.com/","requestedUrl":"https://hatecapitalism.com/","timestamp":1664632910318,"ranks":{"hundos":1,"performance":8,"accessibility":11,"cumulative":9},"lighthouse":{"version":"9.6.2","performance":1,"accessibility":1,"bestPractices":1,"seo":1,"total":400},"firstContentfulPaint":918.001,"firstMeaningfulPaint":918.001,"speedIndex":1027.1172482305078,"largestContentfulPaint":1438.501,"totalBlockingTime":0.5,"cumulativeLayoutShift":0,"timeToInteractive":1389.001,"maxPotentialFirstInputDelay":51,"timeToFirstByte":64.13399999999999,"weight":{"summary":"13 requests • 187 KiB","total":191623,"image":125032,"imageCount":5,"script":13551,"scriptCount":2,"document":7976,"font":42017,"fontCount":2,"stylesheet":3047,"stylesheetCount":3,"thirdParty":0,"thirdPartyCount":0},"run":{"number":1,"total":3},"axe":{"passes":129,"violations":4}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-6457bc84" data-perfect="false">
-				<a href="https://gyam.smth.ooo/" class="site-list_link">
-					gyam.smth.ooo
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://gyam.smth.ooo/","requestedUrl":"https://gyam.smth.ooo/","timestamp":1664633065573,"ranks":{"hundos":10,"performance":10,"accessibility":10,"cumulative":10},"lighthouse":{"version":"9.6.2","performance":0.94,"accessibility":1,"bestPractices":1,"seo":1,"total":394},"firstContentfulPaint":851.571,"firstMeaningfulPaint":851.571,"speedIndex":851.571,"largestContentfulPaint":851.571,"totalBlockingTime":279,"cumulativeLayoutShift":0,"timeToInteractive":1939.571,"maxPotentialFirstInputDelay":294,"timeToFirstByte":66.24,"weight":{"summary":"13 requests • 148 KiB","total":152060,"image":4528,"imageCount":2,"script":106715,"scriptCount":9,"document":10942,"font":29875,"fontCount":1,"stylesheet":0,"stylesheetCount":0,"thirdParty":0,"thirdPartyCount":0},"run":{"number":3,"total":3},"axe":{"passes":25,"violations":2}}'></speedlify-score>
-					</is-land>
-				
-			</li>
-			
-			<li class="site-list_item" id="site-a2149a67" data-perfect="false">
-				<a href="https://manifesto.smth.uk/" class="site-list_link">
-					manifesto.smth.uk
-				</a>
-					<is-land on:visible class="site-list_scores">
-						<speedlify-score class="site-list_score-circles" raw-data='{"url":"https://manifesto.smth.uk/","requestedUrl":"https://manifesto.smth.uk/","timestamp":1664632783374,"ranks":{"hundos":11,"performance":11,"accessibility":6,"cumulative":11},"lighthouse":{"version":"9.6.2","performance":0.91,"accessibility":1,"bestPractices":1,"seo":1,"total":391},"firstContentfulPaint":844.083,"firstMeaningfulPaint":844.083,"speedIndex":844.083,"largestContentfulPaint":844.083,"totalBlockingTime":0,"cumulativeLayoutShift":0.2950732421875,"timeToInteractive":844.083,"maxPotentialFirstInputDelay":16,"timeToFirstByte":69.00799999999998,"weight":{"summary":"2 requests • 40 KiB","total":41378,"image":0,"imageCount":0,"script":0,"scriptCount":0,"document":2003,"font":39375,"fontCount":1,"stylesheet":0,"stylesheetCount":0,"thirdParty":0,"thirdPartyCount":0},"run":{"number":1,"total":3},"axe":{"passes":103,"violations":0}}'></speedlify-score>
-					</is-land>
-				
-			</li>
 	
-		</ul>
+	<div class="leaderboard-wrapper">
+	<table class="leaderboard">
+		<thead>
+			<tr>
+				<th>URL</th>
+				<th class="leaderboard-hide-md">Built With</th>
+				<th class="leaderboard-hide-md">Host</th>
+				<th class="leaderboard-score">Lighthouse</th>
+				<th class="leaderboard-hide-sm">Page weight</th>
+				<th class="leaderboard-data-right"><span data-sr-only>Data and Graphs</span></th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table><!-- /leaderboard -->
 	
-        <script>
-        class Island extends HTMLElement{static tagName="is-land";constructor(){super(),this.attrs={autoInitType:"autoinit",import:"import",fallback:"fallback",scriptType:"module/island",template:"data-island"},this.conditionMap={visible:Conditions.waitForVisible,idle:Conditions.waitForIdle,interaction:Conditions.waitForInteraction,media:Conditions.waitForMedia,"save-data":Conditions.checkSaveData},this.ready=new Promise(((t,e)=>{this.readyResolve=t,this.readyReject=e}))}static getParents(t,e){let s=[];for(;t;)t.matches&&t.matches(e)&&s.push(t),t=t.parentNode;return s}static async ready(t){let e=Island.getParents(t,Island.tagName),s=await Promise.all(e.map((t=>t.wait())));if(s.length)return s[0]}async forceFallback(){let t="is-island-waiting--",e=this.fallback?this.fallback:"",s=Array.from(this.querySelectorAll(":not(:defined)"+(e?`,${e}`:""))).reverse(),i=[];for(let e of s){if(!e.isConnected||e.localName===Island.tagName)continue;let s=Island.ready(e);if("img"===e.localName){let a=t+"src";e.setAttribute(a,e.getAttribute("src")),e.setAttribute("src",'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"/>'),i.push(s.then((()=>{e.setAttribute("src",e.getAttribute(a)),e.removeAttribute(a)})))}else{let a=document.createElement(t+e.localName);for(let t of e.getAttributeNames())a.setAttribute(t,e.getAttribute(t));let r=Array.from(e.childNodes);for(let t of r)a.append(t);e.replaceWith(a),i.push(s.then((()=>{for(let t of Array.from(a.childNodes))e.append(t);a.replaceWith(e)})))}}return i}wait(){return this.ready}getConditions(){let t={};for(let e of Object.keys(this.conditionMap))this.hasAttribute(`on:${e}`)&&(t[e]=this.getAttribute(`on:${e}`));return t}async connectedCallback(){this.fallback=this.getAttribute(this.attrs.fallback),this.autoInitType=this.getAttribute(this.attrs.autoInitType),await this.forceFallback(),await this.hydrate()}getInitScripts(){return this.querySelectorAll(`:scope script[type="${this.attrs.scriptType}"]`)}getTemplates(){return this.querySelectorAll(`:scope template[${this.attrs.template}]`)}replaceTemplates(t){for(let e of t){if("replace"===e.getAttribute(this.attrs.template)){let t=Array.from(this.childNodes);for(let e of t)this.removeChild(e);this.appendChild(e.content);break}e.replaceWith(e.content)}}async hydrate(){let t=[];this.parentNode&&t.push(Island.ready(this.parentNode));let e,s=this.getConditions();for(let e in s)this.conditionMap[e]&&t.push(this.conditionMap[e](s[e],this));await Promise.all(t),this.replaceTemplates(this.getTemplates());let i=this.getAttribute(this.attrs.import);i&&(e=await import(i));let a=this.getInitScripts();if(a.length>0)for(let t of a){let e=document.createElement("script");e.setAttribute("type","module"),e.textContent=t.textContent,t.replaceWith(e)}else if(e){let t=this.autoInitType||i;"petite-vue"!==t&&"vue"!==t||e.createApp().mount(this)}this.readyResolve({import:e})}}class Conditions{static waitForVisible(t,e){if("IntersectionObserver"in window)return new Promise((t=>{let s=new IntersectionObserver((e=>{let[i]=e;i.isIntersecting&&(s.unobserve(i.target),t())}));s.observe(e)}))}static waitForIdle(){let t=new Promise((t=>{"complete"!==document.readyState?window.addEventListener("load",(()=>t()),{once:!0}):t()}));return"requestIdleCallback"in window?Promise.all([new Promise((t=>{requestIdleCallback((()=>{t()}))})),t]):t}static waitForInteraction(t,e){let s=["click","touchstart"];return t&&(s=(t||"").split(",")),new Promise((t=>{function i(a){t();for(let t of s)e.removeEventListener(t,i)}for(let t of s)e.addEventListener(t,i,{once:!0})}))}static waitForMedia(t){let e={matches:!0};if(t&&"matchMedia"in window&&(e=window.matchMedia(t)),!e.matches)return new Promise((t=>{e.addListener((e=>{e.matches&&t()}))}))}static checkSaveData(t){return"connection"in navigator&&navigator.connection.saveData===("false"!==t)?Promise.resolve():new Promise((()=>{}))}}"customElements"in window&&window.customElements.define(Island.tagName,Island),function(){if(!("customElements"in window)||!("fetch"in window))return;const t="speedlify-score";class e{constructor(){this.fetches={},this.responses={},this.urls={}}static normalizeUrl(t,e){return`${t}${t.endsWith("/")?"":"/"}`+(e.startsWith("/")?e.substr(1):e)}async fetch(t,s){if(this.urls[t])return!!this.urls[t][s]&&this.urls[t][s].hash;this.fetches[t]||(this.fetches[t]=fetch(e.normalizeUrl(t,"api/urls.json")));let i=await this.fetches[t];this.responses[t]||(this.responses[t]=i.json());let a=await this.responses[t];return this.urls[t]=a,!!a[s]&&a[s].hash}}const s=new e;customElements.define(t,class extends HTMLElement{connectedCallback(){this.speedlifyUrl=this.getAttribute("speedlify-url"),this.shorthash=this.getAttribute("hash"),this.rawData=this.getAttribute("raw-data"),this.url=this.getAttribute("url")||window.location.href,this.urlStore=s,this.rawData||this.speedlifyUrl?this.init():console.log(`Missing \`speedlify-url\` attributes in <${t}>`)}async init(){if(this.rawData){let t=JSON.parse(this.rawData);return this.setTimeAttributes(t),void(this.innerHTML=this.render(t))}let e=this.shorthash;if(e||(e=await this.urlStore.fetch(this.speedlifyUrl,this.url)),!e)return void console.error(`<${t}> could not find hash for URL: ${this.url}`);let s=await this.fetchData(e);this.setTimeAttributes(s),this.innerHTML=this.render(s)}async fetchData(t){let s=await fetch(e.normalizeUrl(this.speedlifyUrl,`api/${t}.json`));return await s.json()}setTimeAttributes(t){t.timestamp&&(this.setAttribute("title",`Results from ${this.timeAgo(t.timestamp)}`),this.setAttribute("data-timestamp",t.timestamp))}timeAgo(t){let e=Math.floor((new Date-t)/864e5);return`${e} day${1!=e?"s":""} ago`}getScoreClass(t){return t<.5?"speedlify-score speedlify-score-bad":t<.9?"speedlify-score speedlify-score-ok":"speedlify-score speedlify-score-good"}getScoreTemplate(t){let e=[];return e.push(`<span title="Performance" class="${this.getScoreClass(t.lighthouse.performance)}">${parseInt(100*t.lighthouse.performance,10)}</span>`),e.push(`<span title="Accessibility" class="${this.getScoreClass(t.lighthouse.accessibility)}">${parseInt(100*t.lighthouse.accessibility,10)}</span>`),e.push(`<span title="Best Practices" class="${this.getScoreClass(t.lighthouse.bestPractices)}">${parseInt(100*t.lighthouse.bestPractices,10)}</span>`),e.push(`<span title="SEO" class="${this.getScoreClass(t.lighthouse.seo)}">${parseInt(100*t.lighthouse.seo,10)}</span>`),e.join(" ")}render(t){let e=[],s=this.getScoreTemplate(t);(this.hasAttribute("requests")||this.hasAttribute("weight")||this.hasAttribute("rank"))&&!this.hasAttribute("score")||e.push(s);let i=t.weight.summary.split(" • ");if(this.hasAttribute("requests")&&e.push(`<span class="speedlify-requests">${i[0]}</span>`),this.hasAttribute("weight")&&e.push(`<span class="speedlify-weight">${i[1]}</span>`),this.hasAttribute("rank")){let s=this.getAttribute("rank-url");e.push(`<${s?`a href="${s}"`:"span"} class="speedlify-rank">${t.ranks.cumulative}</${s?"a":"span"}>`)}if(this.hasAttribute("rank-change")&&t.previousRanks){let s=t.previousRanks.cumulative-t.ranks.cumulative;e.push(`<span class="speedlify-rank-change ${s>0?"up":s<0?"down":"same"}">${0!==s?Math.abs(s):""}</span>`)}return e.join("")}})}(),function(){if(!("customElements"in window)||!("Intl"in window)||!Intl.RelativeTimeFormat)return;const t=new Intl.RelativeTimeFormat("en",{numeric:"auto"});customElements.define("timestamp-ago",class extends HTMLElement{connectedCallback(){let e=this.getAttribute("timestamp");if(e){let s=(new Date).setTime(e),i=Math.floor((s-Date.now())/36e5);this.setAttribute("title",this.innerText),this.innerText=t.format(i,"hour")}}})}();
-        </script>
+</div><!-- /leaderboard-wrapper -->
+
+
+
+		</main>
 	</body>
 </html>
