@@ -97,6 +97,7 @@ module.exports = async function (eleventyConfig) {
 	eleventyConfig.addPlugin(eleventySass);
 	eleventyConfig.addPlugin(lighthouseScores);
 	eleventyConfig.addPassthroughCopy("fonts");
+	eleventyConfig.addPassthroughCopy("CNAME");
 
 	eleventyConfig.addFilter("shortHash", shortHash);
 	eleventyConfig.setServerOptions({
