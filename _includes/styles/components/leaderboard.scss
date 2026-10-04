@@ -1,7 +1,7 @@
 @use "../vars" as *;
 
-.leaderboard-wrapper {
-}
+// .leaderboard-wrapper {
+// }
 
 .leaderboard {
 	display: block;
@@ -50,10 +50,6 @@
 		--accent-colour: #{$red};
 		--accent-colour-contrast: #{$white};
 	}
-
-	td:not(.leaderboard-url, .leaderboard-score) {
-		display: none;
-	}
 }
 
 .leaderboard-url {
@@ -78,30 +74,10 @@
 
 	code {
 		font-family: inherit;
-		position: relative;
-
-		&::after {
-			bottom: 0;
-			color: var(--background-colour);
-			content: "/";
-			position: absolute;
-			transform: translate(-100%, 0);
-			-webkit-text-stroke-width: 2px;
-			-webkit-text-stroke-color: var(--background-colour);
-		}
 	}
 }
 
 .leaderboard-score {
 	padding: 0.9rem 1rem;
 	border-radius: 3rem;
-
-	.leaderboard-score-sum,
-	.sparkline {
-		display: none;
-	}
-}
-
-.leaderboard-list-entry-details {
-	display: none;
 }

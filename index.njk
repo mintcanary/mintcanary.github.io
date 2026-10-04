@@ -1,66 +1,46 @@
 ---
 layout: home.njk
-maxResults: 1
-pagination:
-  data: "sites"
-  size: 1
-  alias: vertical
-counts:
-  performance: 0
-  accessibility: 0
-  bestPractices: 0
-  seo: 0
-  perfect: 0
-  total: 0
 ---
-{% if sites|length > 1 %}
-{% starterMessage %}
-<div class="starter-message">
-	<style>
-	.starter-message {
-		background-color: hsla(0, 0%, 0%, .4);
-		border: 2px solid hsla(60, 100%, 2%, 1);
-		border-radius: .5em;
-		padding: 2rem;
-		margin: 2rem auto;
-		max-width: 40em;
-	}
-	.starter-message h3 {
-		margin-top: 0;
-	}
-	.starter-message ol {
-		margin: 0;
-	}
-	</style>
-	<h3>Quick Guide to Speedlify</h3>
-	<ol>
-		<li>Add your own URLs to test in a <code>_data/sites/*.js</code> configuration file. Look at the existing samples (Make sure you use <code>skip: false</code>). You can delete the existing ones after you’ve made your own</li>
-		<li>Remove this message from <code>index.njk</code></li>
-	</ol>
+
+<div class="leaderboard-wrapper">
+	<table class="leaderboard">
+		<thead>
+			<tr>
+				<th>URL</th>
+				<th class="leaderboard-score">Lighthouse</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for site in speedlify.sites %}
+			<tr class="leaderboard-list-entry" id="{{ site.id }}">
+				<td class="leaderboard-url">
+					<a href="{{ site.url }}">
+						<code class="url">{{ site.url | displayUrl }}</code>
+					</a>
+				</td>
+
+				<td class="leaderboard-score">
+					<dl class="lighthouse">
+						<div class="lighthouse_item" data-rating="{{ site.lighthouse.performance | ratingEvaluation }}">
+							<dt class="lighthouse_label">Performance</dt>
+							<dd class="lighthouse_score">{{ site.lighthouse.performance }}</dd>
+						</div>
+						<div class="lighthouse_item" data-rating="{{ site.lighthouse.accessibility | ratingEvaluation }}">
+							<dt class="lighthouse_label">Accessibility</dt>
+							<dd class="lighthouse_score">{{ site.lighthouse.accessibility }}</dd>
+						</div>
+						<div class="lighthouse_item" data-rating="{{ site.lighthouse.bestPractices | ratingEvaluation }}">
+							<dt class="lighthouse_label">Best practices</dt>
+							<dd class="lighthouse_score">{{ site.lighthouse.bestPractices }}</dd>
+						</div>
+						<div class="lighthouse_item" data-rating="{{ site.lighthouse.seo | ratingEvaluation }}">
+							<dt class="lighthouse_label">SEO</dt>
+							<dd class="lighthouse_score">{{ site.lighthouse.seo }}</dd>
+						</div>
+					</dl>
+				</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
 </div>
-{% endstarterMessage %}
-<table class="leaderboard leaderboard-list">
-	<caption>Choose a category</caption>
-	<thead data-sr-only>
-		<tr>
-			<th>Category</th>
-			<th>Site Count</th>
-			<th>Last Run Date</th>
-		</tr>
-	</thead>
-	<tbody>
-	{%- for key, category in sites %}
-		{%- if not category.hide %}
-		<tr>
-			<td><a href="{{ ('/' + (category.name or key) | lower | slug + '/') | url }}">{{ category.description or category.name or key }}</a></td>
-			<td><span class="count">×{{ category.urls.length }}<span class="leaderboard-hide-sm"> site{% if category.urls.length != 1 %}s{% endif %}</span></span></td>
-			<td class="leaderboard-hide-sm">{% if lastruns[key].timestamp %}<span class="small"><timestamp-ago timestamp="{{ lastruns[key].timestamp }}">{{ lastruns[key].timestamp | displayDate | safe }}</timestamp-ago></span>{% endif %}</td>
-		</tr>
-		{%- endif %}
-	{%- endfor %}
-	</tbody>
-</table>
-{% else %}
-	{% set categoriesContext = "home" %}
-	{% include "categories-template.njk" %}
-{% endif %}
